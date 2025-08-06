@@ -1,0 +1,40 @@
+# General OS files
+.DS_Store
+Thumbs.db
+\n# Development environments
+venv/
+.venv/
+env/
+.env
+.python-version
+\n# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+\n# Build/compilation outputs
+build/
+dist/
+*.egg-info/
+*.so
+\n# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+\n# Logs and databases
+*.log
+*.sqlite3
+*.db
+\n# Testing/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+\n# Package manager files
+node_modules/
+package-lock.json
+yarn.lock
+\n# Secrets
+secrets.json
+credentials.*
+*.key
