@@ -1,0 +1,12 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to Instagram Clone!</h1>
+    <a href="{% url 'register' %}">Register</a> |
+    <a href="{% url 'login' %}">Login</a>
+</body>
+</html>
